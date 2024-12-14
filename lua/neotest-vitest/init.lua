@@ -287,7 +287,7 @@ function adapter.build_spec(args)
     "--reporter=verbose",
     "--reporter=json",
     "--outputFile=" .. results_path,
-    "--testNamePattern=" .. testNamePattern,
+    -- "--testNamePattern=" .. testNamePattern,
     vim.fs.normalize(pos.path),
   })
 
